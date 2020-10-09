@@ -10,12 +10,12 @@ namespace EjemploBasico3
     {
         static void Main(string[] args)
         {
-            Double primer_numero = 0;
-            Double segundo_numero = 0;
+            Int16 primer_numero = 0;
+            Int16 segundo_numero = 0;
             Console.Write("Introduzca el primer númnero: ");
-            primer_numero = Convert.ToDouble(Console.ReadLine());
+            primer_numero = Convert.ToInt16(Console.ReadLine());
             Console.Write("Introduzca el segundo númnero: ");
-            segundo_numero = Convert.ToDouble(Console.ReadLine());
+            segundo_numero = Convert.ToInt16(Console.ReadLine());
 
             if (primer_numero > segundo_numero )
             {
